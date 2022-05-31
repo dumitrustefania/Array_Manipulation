@@ -22,25 +22,25 @@
 ## Commands:
 - There are 6 possible commands that can be recieved from input:
 
-1) "add_last"
+1) add_last
     - reallocates the array, making space for the new element, stored initially as a "data_structure" variable
     - copies the information from the variable to the end of the array
 
-2) "add_at <idx>"
+2) add_at <idx>
     - reallocates the array, making space for the new element, stored initially as a "data_structure" variable
     - moves all the elements starting with index idx one position to the right, in order to fit the new element in the created space
     - copies the information from the variable into the array at position idx
 
-3) "find <idx>"
+3) find <idx>
     - finds the element at position idx inside the array and prints its contents
 
-4) "delete_at <idx>"
+4) delete_at <idx>
     - moves all the elements starting with index idx one position to the left, in order to erase the element that used to be at position idx
     - reallocates the array, eliminating memory corresponding to the deleted element
 
-5) "print"
+5) print
     - prints all elements stored in the array
 
-6) "exit"
+6) exit
     - frees the memory for the array
     - exits the program
